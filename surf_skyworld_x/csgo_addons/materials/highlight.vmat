@@ -5,24 +5,24 @@ Layer0
 	shader "csgo_effects.vfx"
 
 	//---- Color ----
-	g_flColorBoost "4.000"
+	g_flColorBoost "25.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "[0.458824 0.666667 1.000000 0.000000]"
+	TextureColor "[0.262745 0.556863 1.000000 0.000000]"
 
 	//---- Distance Fade ----
 	g_flFadeDistance "0.000"
 	g_flFadeFalloff "1.000"
 	g_flFadeMax "1.000"
-	g_flFadeMin "0.000"
+	g_flFadeMin "1.000"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
 	//---- Fresnel ----
-	g_flFresnelExponent "1.000"
+	g_flFresnelExponent "0.001"
 	g_flFresnelFalloff "1.000"
-	g_flFresnelMax "0.999"
+	g_flFresnelMax "1.000"
 	g_flFresnelMin "0.000"
 
 	//---- Mask 1 ----
@@ -50,9 +50,9 @@ Layer0
 
 	UnusedVariables
 	{
+		"TextureTintMask" ""
 		"g_flFeatherDistance" "0"
 		"g_flFeatherFalloff" "1"
-		"TextureTintMask" ""
 	}
 
 

@@ -1,6 +1,0 @@
-importfilelist
-{
-	"file"	"materials\models\surf\corner_zoom.vmt"
-	"file"	"materials\models\surf\concrete_white_1.vmt"
-	"file"	"materials\models\surf\corner_2_zoom.vmt"
-}

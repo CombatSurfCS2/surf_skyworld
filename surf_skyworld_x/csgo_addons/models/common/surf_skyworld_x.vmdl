@@ -33,6 +33,14 @@
 								from = "wall.vmat"
 								to = "materials/brushed_concrete.vmat"
 							},
+							{
+								from = "ramp_highlight.vmat"
+								to = "materials/ramp_highlight.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "materials/unbreakable_glass.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -46,7 +54,7 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models/common/surf_skyworld_x.fbx"
-						import_scale = 2.0
+						import_scale = 1.9
 						import_filter = 
 						{
 							exclude_by_default = false
@@ -60,18 +68,22 @@
 				children = 
 				[
 					{
-						_class = "PhysicsMeshFile"
-						name = "surf_skyworld_x1"
+						_class = "PhysicsHullFile"
+						name = "surf_skyworld_x_col"
 						parent_bone = ""
-						surface_prop = "concrete"
-						collision_prop = "player_clip"
+						surface_prop = "default"
+						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/common/surf_skyworld_x.fbx"
-						import_scale = 2.0
-						maxMeshVertices = 0
-						qemError = 0.0
+						filename = "models/common/surf_skyworld_x_col.fbx"
+						import_scale = 1.9
+						faceMergeAngle = 0.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
 						import_filter = 
 						{
 							exclude_by_default = false
