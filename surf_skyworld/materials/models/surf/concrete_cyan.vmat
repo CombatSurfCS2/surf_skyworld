@@ -1,0 +1,47 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/surf/concrete_cyan_color.tga"
+	"TextureNormal"		"materials/models/surf/concrete_white_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"g_flCubeMapScalar"		"0.700000"
+	"TextureRoughness"		"materials/models/surf/concrete_white_spec_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureSelfIllumMask"		"materials/models/surf/concrete_cyan_selfillum.tga"
+	"F_SELF_ILLUM"		"1"
+	"g_vSelfIllumTint"		"[1.000000 1.000000 1.000000]"
+	"g_flSelfIllumBrightness"		"2.321928"
+	"g_flSelfIllumScale"		"1.000000"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"concrete"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$model"		"1"
+			"$basetexture"		"models/surf/concrete_cyan"
+			"$selfillum"		"1"
+			"$selfillumtint"		"[5 5 5]"
+			"$selfillummask"		"models/surf/concrete_cyan"
+			"$selfillummaskscale"		"1"
+			"$selfillumtexture"		"models/surf/concrete_cyan"
+			"$envmap"		"environment maps/metal_generic_002"
+			"$surfaceprop"		"concrete"
+			"$bumpmap"		"models/surf/concrete_white_normal"
+			"$bumpscale"		"0.500000"
+			"$parallaxmap"		"models/surf/concrete_white_height"
+			"$parallaxmapscale"		"0.050000"
+			"$AmbientOcclTexture"		"models/surf/concrete_white_occ"
+			"$envmapmask"		"models/surf/concrete_white_spec"
+			"$ambientocclusion"		"1"
+			"$reflectivity"		"[0.4 0.4 0.4]"
+			"$envmaptint"		"[0.70 0.70 0.70]"
+			"$envmapcontrast"		"0.400000"
+			"$fresnelreflection"		"0.050000"
+			"$envmaplightscale"		"1"
+		}
+	}
+}

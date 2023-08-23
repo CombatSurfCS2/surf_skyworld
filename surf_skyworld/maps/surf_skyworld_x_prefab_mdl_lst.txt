@@ -1,0 +1,8 @@
+models/weapons/w_shot_nova.mdl
+models/weapons/w_snip_awp.mdl
+models/surf/skyworld_zoom_ramp_1.mdl
+models/surf/skyworld_zoom_ramp_3.mdl
+models/surf/skyworld_zoom_ramp_5.mdl
+models/surf/skyworld_zoom_ramp_4.mdl
+models/surf/skyworld_zoom_other.mdl
+models/surf/skyworld_zoom_ramp_2.mdl

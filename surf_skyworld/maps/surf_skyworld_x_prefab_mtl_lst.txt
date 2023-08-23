@@ -1,0 +1,14 @@
+importfilelist
+{
+	"file" "materials\models\weapons\shared\scope\scope_awp.vmt"
+	"file" "materials\models\surf\concrete_white_1.vmt"
+	"file" "materials\models\weapons\w_models\w_shot_nova\shot_nova.vmt"
+	"file" "materials\models\weapons\w_models\w_snip_awp\awp.vmt"
+	"file" "materials\models\surf\unbreakable_glass.vmt"
+	"file" "materials\models\surf\concrete_gray.vmt"
+	"file" "materials\models\surf\corner_2_zoom.vmt"
+	"file" "materials\models\surf\concrete_cyan.vmt"
+	"file" "materials\models\surf\corner_zoom.vmt"
+	"file" "materials\models\weapons\shared\shells\shotgun\shell_shotgun.vmt"
+	"file" "materials\models\surf\concrete_white.vmt"
+}

@@ -1,0 +1,10 @@
+importfilelist
+{
+	"file"	"materials\models\surf\corner_zoom.vmt"
+	"file"	"materials\models\surf\unbreakable_glass.vmt"
+	"file"	"materials\models\surf\concrete_cyan.vmt"
+	"file"	"materials\models\surf\concrete_white.vmt"
+	"file"	"materials\models\surf\concrete_gray.vmt"
+	"file"	"materials\models\surf\concrete_white_1.vmt"
+	"file"	"materials\models\surf\corner_2_zoom.vmt"
+}

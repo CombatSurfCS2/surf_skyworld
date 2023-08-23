@@ -1,0 +1,7 @@
+E:\Torrents\CS2Installer\content\csgo_addons\surf_skyworld\materials\skybox\tidesrt.vmat
+E:\Torrents\CS2Installer\content\csgo_addons\surf_skyworld\materials\dev\dev_measuregeneric01.vmat
+E:\Torrents\CS2Installer\content\csgo_addons\surf_skyworld\materials\tools\toolsskybox.vmat
+E:\Torrents\CS2Installer\content\csgo_addons\surf_skyworld\materials\tools\toolsplayerclip.vmat
+E:\Torrents\CS2Installer\content\csgo_addons\surf_skyworld\materials\tools\toolstrigger.vmat
+E:\Torrents\CS2Installer\content\csgo_addons\surf_skyworld\materials\tools\toolsnodraw.vmat
+E:\Torrents\CS2Installer\content\csgo_addons\surf_skyworld\lighting\postprocessing\surf_skyworld_x_prefab\surf_skyworld_x_prefab.vpost

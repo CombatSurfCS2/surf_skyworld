@@ -1,0 +1,42 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/surf/corner_zoom_color.tga"
+	"TextureNormal"		"materials/models/surf/concrete_white_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"g_flCubeMapScalar"		"1.000000"
+	"TextureRoughness"		"materials/models/surf/concrete_white_normal_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"concrete"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$model"		"1"
+			"$basetexture"		"models/surf/corner_zoom"
+			"$envmap"		"env_cubemap"
+			"$surfaceprop"		"concrete"
+			"$bumpmap"		"models/surf/concrete_white_normal"
+			"$bumpscale"		"0.500000"
+			"$parallaxmap"		"models/surf/concrete_white_height"
+			"$parallaxmapscale"		"0.050000"
+			"$AmbientOcclTexture"		"models/surf/concrete_white_occ"
+			"$envmapmask"		"models/surf/concrete_white_spec"
+			"$ambientocclusion"		"1"
+			"$reflectivity"		"[0.80 0.80 0.80]"
+			"$envmaptint"		"[1.50 1.50 1.50]"
+			"$envmapcontrast"		"0.500000"
+			"$fresnelreflection"		"0.310000"
+			"$envmaplightscale"		"1"
+			"$phong"		"1"
+			"$phongexponent"		"10"
+			"$phongboost"		"2.500000"
+			"$phongfresnelranges"		"[0 0.5 1]"
+		}
+	}
+}
