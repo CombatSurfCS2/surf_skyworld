@@ -2,81 +2,43 @@
 
 Layer0
 {
-	shader "csgo_effects.vfx"
+	shader "csgo_environment.vfx"
 
 	//---- Color ----
-	g_flColorBoost "3.000"
-	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "[0.203922 0.364706 0.850980 1.000000]"
-
-	//---- Distance Fade ----
-	g_flFadeDistance "1.000"
-	g_flFadeFalloff "1.000"
-	g_flFadeMax "1.000"
-	g_flFadeMin "0.000"
+	g_flModelTintAmount "1.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[0.392157 0.584314 0.929412 1.000000]"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
-	//---- Fresnel ----
-	g_flFresnelExponent "0.001"
-	g_flFresnelFalloff "1.000"
-	g_flFresnelMax "1.000"
-	g_flFresnelMin "0.000"
-
-	//---- Mask 1 ----
-	g_vMask1PanSpeed "[0.000 0.000]"
-	g_vMask1Scale "[1.000 1.000]"
-	TextureMask1 "materials/default/default_mask.tga"
-
-	//---- Mask 2 ----
-	g_vMask2PanSpeed "[0.000 0.000]"
-	g_vMask2Scale "[1.000 1.000]"
-	TextureMask2 "materials/default/default_mask.tga"
-
-	//---- Mask 3 ----
-	g_vMask3PanSpeed "[0.000 0.000]"
-	g_vMask3Scale "[1.000 1.000]"
-	TextureMask3 "materials/default/default_mask.tga"
+	//---- Material1 ----
+	g_flTexCoordRotation1 "0.000"
+	g_vTexCoordCenter1 "[0.500 0.500]"
+	g_vTexCoordOffset1 "[0.000 0.000]"
+	g_vTexCoordScale1 "[1.000 1.000]"
+	TextureAmbientOcclusion1 "materials/textures/brushed_concrete/brushed_concrete_ao.jpg"
+	TextureColor1 "materials/textures/brushed_concrete/brushed_concrete_color.jpg"
+	TextureHeight1 "materials/default/default_height.tga"
+	TextureMetalness1 "materials/textures/brushed_concrete/brushed_concrete_metal.jpg"
+	TextureNormal1 "materials/textures/brushed_concrete/brushed_concrete_normal.jpg"
+	TextureRoughness1 "materials/textures/brushed_concrete/brushed_concrete_rough.jpg"
+	TextureTintMask1 "materials/default/default_mask.tga"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
 	g_nTextureAddressModeV "0" // Wrap
 
-	//---- Translucent ----
-	g_flOpacityScale "1.000"
-	TextureTranslucency "materials/default/default_trans.tga"
+	UnusedVariables
+	{
+		"TextureTintMask" ""
+		"g_flFeatherDistance" "0"
+		"g_flFeatherFalloff" "1"
+	}
 
 
 	VariableState
 	{
-		"Color"
-		{
-		}
-		"Distance Fade"
-		{
-		}
-		"Fog"
-		{
-		}
-		"Fresnel"
-		{
-		}
-		"Mask 1"
-		{
-		}
-		"Mask 2"
-		{
-		}
-		"Mask 3"
-		{
-		}
-		"Texture Address Mode"
-		{
-		}
-		"Translucent"
-		{
-		}
 	}
 }

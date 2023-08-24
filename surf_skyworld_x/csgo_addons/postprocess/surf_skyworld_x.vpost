@@ -43,12 +43,12 @@
 			m_params = 
 			{
 				m_flExposureBias = 0.0
-				m_flShoulderStrength = 0.2565
+				m_flShoulderStrength = 0.01
 				m_flLinearStrength = 0.0009
 				m_flLinearAngle = 0.0009
 				m_flToeStrength = 1.0
 				m_flToeNum = 1.0
-				m_flToeDenom = 0.9043
+				m_flToeDenom = 1.0
 				m_flWhitePoint = 1.498557
 				m_flLuminanceSource = 0.0
 				m_flExposureBiasShadows = 0.0
